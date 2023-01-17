@@ -5,5 +5,4 @@
 def list_all(mongo_collection):
     """returns [] if null or empty
     or return all items in list"""
-
-    return [item for item in mongo_collection]
+    return [item for item in mongo_collection.find()]
