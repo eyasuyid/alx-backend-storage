@@ -1,0 +1,2 @@
+// update all name="holberton school"
+db.school.update({name: "Holberton school"}, {$set: {address: "972"}}, {multi: true});
