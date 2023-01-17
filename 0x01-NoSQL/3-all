@@ -1,0 +1,2 @@
+// get all data from collections
+db.school.find();
